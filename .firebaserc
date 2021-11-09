@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "blogging-c001f"
+  },
+  "targets": {
+    "blogging-c001f": {
+      "hosting": {
+        "main": [
+          "blogging-main"
+        ]
+      }
+    }
+  }
+}

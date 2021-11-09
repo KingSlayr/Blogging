@@ -1,0 +1,95 @@
+.user{
+    margin-top: 8vh;
+    display: flex;
+    height: 92vh;
+
+}
+
+.user_left{
+    width: 20em;
+    margin: 1em;
+    text-align: justify;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.user_image{
+    height: 10em;
+    border-radius: 100%;
+}
+.user_left>div{
+    width: 20em;
+}
+
+.user_middle{
+    overflow: scroll;
+    flex: 1;
+}
+
+.user_right{
+    width: 15em;
+}
+
+.user_right>span{
+    display: block;
+    margin: 1em;
+    font: 1.2em;
+}
+
+.user_middle>span{
+    display: block;
+    margin: 1em;
+    font: 1.2em;
+}
+
+.user_right div{
+    width: 10em;
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    padding: 0.5em;
+    overflow: scroll;
+    margin: 1em;
+}
+
+
+@media only screen and (max-width: 890px) {
+    .user_left{
+        width: 10em;
+    }
+    
+    .user_left>div{
+        width: 10em;
+    }
+  }
+
+
+  @media only screen and (max-width: 700px) {
+      .user_right{
+          display: none;
+      }
+  }
+
+  
+  @media only screen and (max-width: 440px) {
+    .user{
+        overflow: scroll;
+        flex-direction: column;
+    }
+    .user_left{
+        width: unset;
+        margin: 1em;
+        text-align: justify;
+    }
+    
+    .user_left>div{
+        width: 100%;
+    }
+    .user_right{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: inherit;
+    }
+
+    .user_middle{
+        overflow: visible;
+    }
+}

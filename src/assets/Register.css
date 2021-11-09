@@ -1,0 +1,15 @@
+.registerHead{
+    order: 2;
+}
+.registerInput{
+    order: 1;
+}
+
+@media only screen and (max-width: 730px) {
+    .registerHead{
+        order: 1;
+    }
+    .registerInput{
+        order: 2;
+    }
+}

@@ -1,0 +1,28 @@
+.comments{
+    margin: 1em;
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    padding: 0.5em;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comment{
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+}
+
+.comment_name{
+    font-size: small;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.507);
+}
+
+@media only screen and (max-width: 900px) {
+    .comments{
+        margin: 0.1em;
+        transform: scale(0.8);
+    }    
+  }

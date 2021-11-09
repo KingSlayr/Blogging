@@ -1,0 +1,56 @@
+.navbar{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    background-color: white;
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar_left{
+    letter-spacing: 1px;
+    margin: 0 1em;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.navbar_right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar_right i{
+    padding: 0 1em;
+    height: 100%;
+    line-height: 8vh;
+    cursor: pointer;
+    color: black;
+}
+
+.navbar_right i:hover{
+    background-color: tomato;
+    color: white;
+}
+
+.navbar_image{
+    padding: 0 1em;
+    height: 5vh;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+    .navbar {
+        font-size: large;
+    }
+    .navbar_left{
+        font-size: x-large;
+    }
+    
+  }

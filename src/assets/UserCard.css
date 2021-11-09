@@ -1,0 +1,42 @@
+.usercard{
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    height: 15em;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    align-items: center;
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
+
+.usercard:hover{
+    transform: scale(1.02);
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+.usercard>img{
+    height: 6em;
+    width: 6em;
+    border-radius: 100%;
+    margin-bottom: 0.5em;
+}
+
+.usercard_name{
+    margin-bottom: 0.5em;
+}
+
+.usercard_bio{
+    overflow: hidden;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .usercard{
+        margin: 0.1em;
+        transform: scale(0.8);
+    }    
+  }
+

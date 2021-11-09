@@ -1,0 +1,45 @@
+.createblog{
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.createblog_title{
+    padding: 0.5em 2em;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createblog_title input{
+    padding: 1em;
+    margin: 0 2em;
+    border: 1px solid #cdcdcd;
+    outline: #cdcdcd;
+    flex: 1;
+}
+
+.editor{
+    padding: 1em 2em;
+}
+.fr-wrapper{
+    height: 70vh;
+    overflow: scroll;
+}
+
+.createblog_post{
+    background-color: tomato;
+    padding: 0.5em;
+    color: white;
+    /* width: 30vw; */
+    text-align: center;
+    margin: 1em 35vw;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 450px) {
+    .fr-wrapper{
+        height: 60vh;
+    }
+  }

@@ -1,0 +1,35 @@
+.home{
+    margin-top:8vh;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.home_left{
+    overflow: scroll;
+    height: 92vh;
+}
+
+.home_middle{
+    flex: 1;
+    overflow: scroll;
+    height: 92vh;
+}
+
+.home_right{
+    overflow: scroll;
+    height: 92vh;
+}
+
+@media only screen and (max-width: 1150px) {
+    .home_right{
+        display: none;
+    }    
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .home_left{
+        display: none;
+    }    
+  }

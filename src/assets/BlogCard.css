@@ -1,0 +1,32 @@
+.blogCard{
+    margin: 1em 0.5em;
+    /* max-height: 15em; */
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.blogCard_title{
+    margin-bottom: 1em;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.blogCard_tags{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.blogCard_content{
+    text-align:justify;
+    height: 15vh;
+    overflow: hidden;
+}
+
+.blogCard_tags>div{
+    margin-right: 0.5em;
+    background-color: tomato;
+    padding: 0.4em;
+    border-radius: 5px;
+    cursor: pointer;
+}
